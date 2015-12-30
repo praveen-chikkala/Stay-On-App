@@ -1,0 +1,19 @@
+<ion-view view-title="Digital Wall" hide-nav-bar="true" class="pin-view">
+  <!-- do you want padding? -->
+  <ion-content class="padding" scroll="false">
+
+    <!-- content goes here -->
+
+    <div class="pin-view-page">
+    	<h1 class="pin-view-title">
+    	DigitalWall
+    </h1>
+    <p class="pin-view-tagline">
+    	Smart Infotainment Platform
+    </p>
+    </div>
+    
+    <h3 class="pin-view-pin" ng-if="ctrl.didGetPin" ng-click="ctrl.displayLayout()">Your display registration key {{ctrl.pin}}</h3>
+    <h3 class="pin-view-pin" ng-if="!ctrl.didGetPin">Loading...</h3>
+  </ion-content>
+</ion-view>
