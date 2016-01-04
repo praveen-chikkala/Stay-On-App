@@ -1,0 +1,10 @@
+{"images":[
+    {
+        "path": "https://stay-on.s3.amazonaws.com/26d2f406-a2b8-4891-ac45-7f66fc5d0212.png",
+        "delayTime": 10
+    },
+    {
+        "path": "https://stay-on.s3.amazonaws.com/6c0ac074-7e3e-47ec-ac55-9763047b5702.JPG",
+        "delayTime": 20
+    }
+] }

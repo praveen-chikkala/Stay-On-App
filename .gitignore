@@ -2,6 +2,10 @@
 *.bak
 .idea/
 app/bower_components/
+bower_components/
 node_modules/
+platforms/
+plugins/
+www/
 
 npm-debug.log
