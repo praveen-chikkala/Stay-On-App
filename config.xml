@@ -28,4 +28,10 @@
     <plugin name="cordova-plugin-device" spec="~1.0.1" />
     <plugin name="cordova-plugin-dialogs" spec="~1.1.1" />
     <plugin name="com.ionic.keyboard" spec="~1.0.4" />
+    <preference name="loadUrlTimeoutValue" value="99999999" />
+    <staticContent>
+        <remove fileExtension=".json" />
+        <mimeMap fileExtension=".json" mimeType="application/json" />
+    </staticContent>
+
 </widget>
